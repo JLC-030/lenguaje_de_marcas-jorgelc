@@ -1,0 +1,79 @@
+Ejercicios de creación y 
+
+actualización de repositorios 
+
+ 
+
+ 
+
+-Ejercicio 1: 
+
+git config --global user.name “[jorge lopez]” 
+
+git config --global user.email “[jorgelopezcanfranc12@gmail.com]” 
+
+git config --global color.ui auto 
+
+git config --list 
+
+ 
+
+-Ejercicio 2: 
+
+mkdir libro 
+
+cd libro  
+
+git init 
+
+dir 
+
+ 
+
+-Ejercicio 3: 
+
+git status 
+
+echo > indice.txt 
+
+echo Capítulo 1: Introduccion a Git. >> indice.txt 
+
+echo Capítulo 2: Flujo de trabajo basico. >> indice.txt 
+
+echo Capítulo 3: Capítulo 3: Gestión de ramas. >> indice.txt 
+
+git status 
+
+git add indice.txt 
+
+git status  
+
+ 
+
+-Ejercicio 4: 
+
+git commit –m “primer commit” 
+
+git status 
+
+ 
+
+-Ejercicio 5: 
+
+echo Capítulo 4: Repositorios remotos. >> indice.txt 
+
+git diff 
+
+git add indice.txt 
+
+git commit --m “segundo commit” 
+
+ 
+
+-Ejercicio 6: 
+
+git show 
+
+git commit --amend --m “Añadido capitulo 3 sobre gestión de ramas al indice.” 
+
+git show 
