@@ -5,9 +5,9 @@ mkdir capitulos
 cd capitulos
 echo > capitulo1.txt
 echo  Git es un sistema de control de versiones ideado por Linus Torvalds. >> capitulo1.txt
-> git add capitulo1.txt
-> git commit -m "Añadido capítulo 1."
-> git log
+git add capitulo1.txt
+git commit -m "Añadido capítulo 1."
+git log
 
 
 Ejercicio 2
