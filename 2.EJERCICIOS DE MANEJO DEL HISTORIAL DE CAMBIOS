@@ -26,7 +26,7 @@ echo Git permite la creación de ramas lo que permite tener distintas versiones 
 git add capitulo3.txt
 git commit -m "Añadido capítulo 3."
 git log
-git diff
+git diff HEAD-1..HEAD
 
 
 Ejercicio 4
